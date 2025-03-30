@@ -1,4 +1,4 @@
-// populate the select element
+h// populate the select element
 addPokemon();
 
 // requests the list of pokemon and populates the select element
@@ -18,7 +18,7 @@ function addPokemon(){
             pokeList.results.forEach(
                 pokemon=>{
                     let option = document.createElement("option");
-                    let textNode = document.createTextNode(`${pokemon.name}`);
+                    let textNode = document.createTextNode(`Name: ${pokemon.name}`);
                     option.appendChild(textNode);
                     document.querySelector("#pokeMenu").appendChild(option);
                 });
@@ -63,7 +63,7 @@ function pokeInfo(){
             document.querySelector("#height").appendChild(height);
 
             let weight = document.createElement("div");
-            let weightNode = document.createTextNode(`${pokeInfo.weight}`);
+            let weightNode = document.createTextNode(`Weight: ${pokeInfo.weight}`);
             weight.appendChild(weightNode);
             document.querySelector("#weight").appendChild(weight);
         }

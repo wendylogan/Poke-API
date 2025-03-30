@@ -25,7 +25,7 @@ select {
   background-color: white;
   color: #3b4cca;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin: 1 rem;
 }
 
 select:hover {

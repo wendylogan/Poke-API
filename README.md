@@ -21,6 +21,7 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 - PokéAPI
 
 **Screenshots**
+
 Screenshot 1: Select the dropdown on the initial screen to view a list of Pokemon names
 <img width="625" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/a7329467-1d4f-465b-bffe-9203c8075c63" />
 

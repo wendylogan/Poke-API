@@ -18,7 +18,7 @@ function addPokemon(){
             pokeList.results.forEach(
                 pokemon=>{
                     let option = document.createElement("option");
-                    let textNode = document.createTextNode(`Name: ${pokemon.name}`);
+                    let textNode = document.createTextNode(`${pokemon.name}`);
                     option.appendChild(textNode);
                     document.querySelector("#pokeMenu").appendChild(option);
                 });
@@ -42,7 +42,7 @@ function pokeInfo(){
 
     // get the name of the pokemon the user selected and output it
     let pokemon = document.querySelector("#pokeMenu").value;
-    document.querySelector("#name").innerHTML = pokemon;
+    document.querySelector("#name").innerHTML = "Name: " + pokemon;
     
     // create the request
     const request = new XMLHttpRequest();

@@ -58,7 +58,7 @@ function pokeInfo(){
             console.log("Response OK.");
 
             let height = document.createElement("div");
-            let heightNode = document.createTextNode(`${pokeInfo.height}`);
+            let heightNode = document.createTextNode(`Height: ${pokeInfo.height}`);
             height.appendChild(heightNode);
             document.querySelector("#height").appendChild(height);
 

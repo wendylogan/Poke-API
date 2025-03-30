@@ -11,16 +11,18 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
    ```bash  
    git clone https://github.com/wendyologan/poke-api.git
 
-2. **Open the index.html file in your browser:
+2. **Open the index.html file in your browser:**
    Double-click the file, or
    Use a live server (e.g., VS Code's Live Server extension
 
-Technologies Used
+**Technologies Used**
 HTML/CSS
 JavaScript
 PokéAPI
 
-**Screenshot**
-<img width="628" alt="Screenshot 2025-03-30 at 3 58 44 PM" src="https://github.com/user-attachments/assets/5130da6b-9586-4357-9672-f43823836226" />
-<img width="623" alt="Screenshot 2025-03-30 at 3 59 00 PM" src="https://github.com/user-attachments/assets/c0746dc5-f109-40ef-b93f-0feff8e2e76d" />
-<img width="625" alt="Screenshot 2025-03-30 at 3 59 15 PM" src="https://github.com/user-attachments/assets/61c74204-332f-4c7c-abdb-783b2e2ef8a9" />
+**Screenshots**
+
+<img width="628" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/fc603280-6f62-41fa-a17d-9adec773143b" />
+<img width="623" alt="poke-api-ss2" src="https://github.com/user-attachments/assets/1ab8854c-f1f9-4425-8c87-ca02e8cbebfc" />
+<img width="625" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/675d5a2b-1040-4ddb-81d8-fb4872493b0d" />
+

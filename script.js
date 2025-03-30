@@ -16,7 +16,6 @@ async function populateDropdown() {
     }
 }
 
-// Fetch and display Pokémon info
 async function pokeInfo() {
     const select = document.getElementById('pokeMenu');
     const pokemonId = select.value;
@@ -27,15 +26,21 @@ async function pokeInfo() {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`);
         const pokemon = await response.json();
         
+        // Add sprite image
+        const spriteUrl = pokemon.sprites.front_default;
+        const spriteImg = document.getElementById('sprite');
+        spriteImg.src = spriteUrl;
+        spriteImg.alt = `${pokemon.name} sprite`;
+        
         // Populate fields with the info
         document.getElementById('name').textContent = `Name:  ${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}`;
         document.getElementById('height').textContent = `Height: ${pokemon.height}`; 
         document.getElementById('weight').textContent = `Weight: ${pokemon.weight}`; 
 
-        // Show the divs
-        document.getElementById('name').style.display = 'block';
-        document.getElementById('height').style.display = 'block';
-        document.getElementById('weight').style.display = 'block';
+        // Show all elements
+        ['name', 'height', 'weight', 'sprite-container'].forEach(id => {
+            document.getElementById(id).style.display = 'block';
+        });
     } catch (error) {
         console.error('Error fetching Pokémon data:', error);
     }

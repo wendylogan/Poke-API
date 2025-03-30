@@ -22,7 +22,6 @@ PokéAPI
 
 **Screenshots**
 
-<img width="628" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/fc603280-6f62-41fa-a17d-9adec773143b" />
-<img width="623" alt="poke-api-ss2" src="https://github.com/user-attachments/assets/1ab8854c-f1f9-4425-8c87-ca02e8cbebfc" />
-<img width="625" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/675d5a2b-1040-4ddb-81d8-fb4872493b0d" />
-
+<img width="646" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/77993106-176b-42b6-bc04-f6f498d5a1aa" />
+<img width="646" alt="poke-api-ss2" src="https://github.com/user-attachments/assets/4e7fc2c0-f408-49ca-9288-9cfebee15113" />
+<img width="643" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/1bb028d3-15a9-4060-93a9-f474343cb853" />

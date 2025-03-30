@@ -21,15 +21,15 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 - PokéAPI
 
 **Screenshots**
-Screenshot 1: Initial screen
+Screenshot 1: Select the dropdown on the initial screen to view a list of Pokemon names
 <img width="625" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/a7329467-1d4f-465b-bffe-9203c8075c63" />
 
-Screenshot 2: Dropdown with Pokemon names
+Screenshot 2: Select a Pokemon name from the dropdown to view Pokemon information
 <img width="626" alt="poke-api-ss2" src="https://github.com/user-attachments/assets/28bbf63e-3254-4743-b21d-96c3eb3b7f03" />
 
-Screenshot 3: Results displaying the Pokemon's name, height, and weight
+Screenshot 3: Results display the Pokemon's sprite/image, name, height, and weight
 <img width="627" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/22be0410-3a82-4165-b3dd-f97b79c1c915" />
 
 **Future Improvements** 
-- Add Pokemon sprites/images (Utilizing PokeAPI/sprites
+- Add GIFs of Pokemon sprites/images
 - List Pokemon additional information (abilities, stats, species, etc.)

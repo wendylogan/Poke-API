@@ -13,15 +13,23 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 
 2. **Open the index.html file in your browser:**
    Double-click the file, or
-   Use a live server (e.g., VS Code's Live Server extension
+   Use a live server (e.g., VS Code's Live Server extension)
 
 **Technologies Used**
-HTML/CSS
-JavaScript
-PokéAPI
+- HTML/CSS
+- JavaScript
+- PokéAPI
 
 **Screenshots**
-
+Screenshot 1: Initial screen
 <img width="646" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/77993106-176b-42b6-bc04-f6f498d5a1aa" />
+
+Screenshot 2: Dropdown with Pokemon names
 <img width="646" alt="poke-api-ss2" src="https://github.com/user-attachments/assets/4e7fc2c0-f408-49ca-9288-9cfebee15113" />
+
+Screenshot 3: Results displaying the Pokemon's name, height, and weight
 <img width="643" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/1bb028d3-15a9-4060-93a9-f474343cb853" />
+
+**Future Improvements** 
+- Add Pokemon sprites/images (Utilizing PokeAPI/sprites
+- List Pokemon additional information (abilities, stats, species, etc.)

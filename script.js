@@ -42,7 +42,7 @@ function pokeInfo(){
 
     // get the name of the pokemon the user selected and output it
     let pokemon = document.querySelector("#pokeMenu").value;
-    document.querySelector("#name").innerHTML = "Name:/t" + String(pokemon).charAt(0).toUpperCase() + String(pokemon).slice(1);
+    document.querySelector("#name").innerHTML = "Name:\t" + String(pokemon).charAt(0).toUpperCase() + String(pokemon).slice(1);
     
     // create the request
     const request = new XMLHttpRequest();
@@ -58,12 +58,12 @@ function pokeInfo(){
             console.log("Response OK.");
 
             let height = document.createElement("div");
-            let heightNode = document.createTextNode(`Height:/t${pokeInfo.height}`);
+            let heightNode = document.createTextNode(`Height:\t${pokeInfo.height}`);
             height.appendChild(heightNode);
             document.querySelector("#height").appendChild(height);
 
             let weight = document.createElement("div");
-            let weightNode = document.createTextNode(`Weight:/t${pokeInfo.weight}`);
+            let weightNode = document.createTextNode(`Weight:\t${pokeInfo.weight}`);
             weight.appendChild(weightNode);
             document.querySelector("#weight").appendChild(weight);
         }

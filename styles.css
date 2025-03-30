@@ -18,7 +18,7 @@ h3 {
 select {
   font-family: inherit;
   font-size: 12px; /* Smaller font to fit text */
-  padding: 12px 8px;
+  padding: 14px 8px;
   width: 200px; /* Fixed width to prevent resizing */
   border: 3px solid #3b4cca;
   border-radius: 5px;

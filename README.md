@@ -20,7 +20,7 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 - JavaScript
 - PokéAPI
 
-##Screenshots
+## Screenshots
 
 **Screenshot 1:** Select the dropdown on the initial screen to view a list of Pokemon names
 <img width="625" alt="poke-api-ss1" src="https://github.com/user-attachments/assets/a7329467-1d4f-465b-bffe-9203c8075c63" />
@@ -32,6 +32,6 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 <img width="627" alt="poke-api-ss3" src="https://github.com/user-attachments/assets/22be0410-3a82-4165-b3dd-f97b79c1c915" />
 
 
-##Future Improvements
+## Future Improvements
 - Add GIFs of Pokemon sprites/images
 - List Pokemon additional information (abilities, stats, species, etc.)

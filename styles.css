@@ -40,6 +40,19 @@ select:hover {
   background-color: #ffde00;
 }
 
+#sprite-container {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#sprite {
+  width: 96px;  /* Standard Pokémon sprite size */
+  height: 96px;
+  border: 2px solid #3b4cca;
+  border-radius: 4px;
+  padding: 4px;
+}
+
 /* Hidden by default, shown only after selection */
 #name, #height, #weight {
   display: none; /* Initially hidden */

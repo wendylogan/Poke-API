@@ -42,7 +42,7 @@ function pokeInfo(){
 
     // get the name of the pokemon the user selected and output it
     let pokemon = document.querySelector("#pokeMenu").value;
-    document.querySelector("#name").innerHTML = "Name: " + pokemon;
+    document.querySelector("#name").innerHTML = "Name: " + String(pokemon).charAt(0).toUpperCase() + String(pokemon).slice(1);
     
     // create the request
     const request = new XMLHttpRequest();

@@ -1,0 +1,38 @@
+/* Pokémon-themed styles */
+body {
+  font-family: 'Press Start 2P', cursive; /* Retro pixel font - or use 'Roboto', sans-serif; */
+  background-color: #f8f8f8;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffde00; /* Pokémon yellow */
+  color: #3b4cca; /* Pokémon blue */
+}
+
+h3 {
+  color: #cc0000; /* Pokémon red */
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff; /* White outline for readability */
+}
+
+select {
+  font-family: inherit; /* Match body font */
+  padding: 8px;
+  border: 3px solid #3b4cca; /* Pokémon blue */
+  border-radius: 5px;
+  background-color: white;
+  color: #3b4cca;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: #ffde00; /* Light yellow on hover */
+}
+
+#name, #height, #weight {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  border: 2px dashed #3b4cca; /* Dashed border for fun */
+  border-radius: 5px;
+}

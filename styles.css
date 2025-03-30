@@ -1,38 +1,44 @@
 /* Pokémon-themed styles */
 body {
-  font-family: 'Press Start 2P', cursive; /* Retro pixel font - or use 'Roboto', sans-serif; */
-  background-color: #f8f8f8;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffde00; /* Pokémon yellow */
+  color: #3b4cca; /* Pokémon blue */
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  background-color: #ffde00; /* Pokémon yellow */
-  color: #3b4cca; /* Pokémon blue */
+  line-height: 1.5; /* Improves readability */
 }
 
 h3 {
   color: #cc0000; /* Pokémon red */
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff; /* White outline for readability */
+  text-shadow: 2px 2px 0 #fff;
 }
 
 select {
-  font-family: inherit; /* Match body font */
-  padding: 8px;
-  border: 3px solid #3b4cca; /* Pokémon blue */
+  font-family: inherit;
+  font-size: 12px; /* Smaller font to fit text */
+  padding: 10px;
+  width: 200px; /* Fixed width to prevent resizing */
+  border: 3px solid #3b4cca;
   border-radius: 5px;
   background-color: white;
   color: #3b4cca;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 select:hover {
-  background-color: #ffde00; /* Light yellow on hover */
+  background-color: #ffde00;
 }
 
+/* Hidden by default, shown only after selection */
 #name, #height, #weight {
-  margin: 10px 0;
+  display: none; /* Initially hidden */
+  margin: 10px auto;
   padding: 10px;
+  width: 80%;
   background-color: white;
-  border: 2px dashed #3b4cca; /* Dashed border for fun */
+  border: 2px solid #3b4cca; /* Solid border (no dashes) */
   border-radius: 5px;
 }

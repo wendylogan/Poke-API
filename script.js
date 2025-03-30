@@ -1,77 +1,45 @@
-// populate the select element
-addPokemon();
-
-// requests the list of pokemon and populates the select element
-function addPokemon(){
-    // create the request
-    const request = new XMLHttpRequest();
-    request.open("GET", "https://pokeapi.co/api/v2/pokemon/");
-    
-    request.onload = function(){    
-        // pokeList stores the response
-        let pokeList;
-        pokeList = JSON.parse(this.response);
-
-        // if the request is successful
-        if (request.status == 200){
-            console.log("Response OK.");
-            pokeList.results.forEach(
-                pokemon=>{
-                    let option = document.createElement("option");
-                    let textNode = document.createTextNode(`${pokemon.name}`);
-                    option.appendChild(textNode);
-                    document.querySelector("#pokeMenu").appendChild(option);
-                });
-            }
-
-        // if the request has an error
-        else {
-            console.log(`Error Status: ${request.status}`);
-        }   
-    };
-    // send request
-    request.send(); 
-}
-
-// requests the selected pokemon's info and displays name, height, and weight
-function pokeInfo(){
-    // clear any previous outputs
-    document.querySelector("#name").innerHTML = null;
-    document.querySelector("#height").innerHTML = null;
-    document.querySelector("#weight").innerHTML = null;
-
-    // get the name of the pokemon the user selected and output it
-    let pokemon = document.querySelector("#pokeMenu").value;
-    document.querySelector("#name").innerHTML = 'Name:\t' + String(pokemon).charAt(0).toUpperCase() + String(pokemon).slice(1);
-    
-    // create the request
-    const request = new XMLHttpRequest();
-    request.open("GET","https://pokeapi.co/api/v2/pokemon/".concat(pokemon));
-    
-    request.onload = function(){
-        // pokeInfo stores the response
-        let pokeInfo;
-        pokeInfo = JSON.parse(this.response);
+// Populate the dropdown with Pokémon options
+async function populateDropdown() {
+    const select = document.getElementById('pokeMenu');
+    try {
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=151'); // First 151 Pokémon
+        const data = await response.json();
         
-        // if the request is successful
-        if (request.status = 200){
-            console.log("Response OK.");
-
-            let height = document.createElement("div");
-            let heightNode = document.createTextNode(`Height:\t\t${pokeInfo.height}`);
-            height.appendChild(heightNode);
-            document.querySelector("#height").appendChild(height);
-
-            let weight = document.createElement("div");
-            let weightNode = document.createTextNode(`Weight:\t\t${pokeInfo.weight}`);
-            weight.appendChild(weightNode);
-            document.querySelector("#weight").appendChild(weight);
-        }
-        // if the request has an error
-        else{
-            console.log(`Error status: ${request.status}`);
-        }
-    };
-    // send request
-    request.send();
+        data.results.forEach((pokemon, index) => {
+            const option = document.createElement('option');
+            option.value = index + 1; // Pokémon ID
+            option.textContent = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1); // Capitalize name
+            select.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error fetching Pokémon list:', error);
+    }
 }
+
+// Fetch and display Pokémon info
+async function pokeInfo() {
+    const select = document.getElementById('pokeMenu');
+    const pokemonId = select.value;
+    
+    if (!pokemonId) return; // Exit if no selection
+    
+    try {
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`);
+        const pokemon = await response.json();
+        
+        // Populate fields with the info
+        document.getElementById('name').textContent = `Name:  ${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}`;
+        document.getElementById('height').textContent = `Height: ${pokemon.height}`; 
+        document.getElementById('weight').textContent = `Weight: ${pokemon.weight}`; 
+
+        // Show the divs
+        document.getElementById('name').style.display = 'block';
+        document.getElementById('height').style.display = 'block';
+        document.getElementById('weight').style.display = 'block';
+    } catch (error) {
+        console.error('Error fetching Pokémon data:', error);
+    }
+}
+
+// Initialize the dropdown when page loads
+document.addEventListener('DOMContentLoaded', populateDropdown);

@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html land="en">
-<html land="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokemon API</title>
-  <meta name="viewpoint" content = "width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h3>Pokemon API</h3>
-    <p>Select a pokemon to view its information:</p>
+  <h3>Pokemon API</h3>
+  <p>Select a pokemon to view its information:</p>
 
-    <select onchange = "pokeInfo();" id = "pokeMenu"></select>
-    <br><br>
-    <div id = "name"></div>
-    <div id = "height"></div>
-    <div id = "weight"></div>
-  <script src="script.js" defer></script>
+  <select onchange="pokeInfo()" id="pokeMenu"></select>
+  <br><br>
+  <div id="name"></div>
+  <div id="height"></div>
+  <div id="weight"></div>
+  
+  <script src="script.js"></script>
 </body>
 </html>

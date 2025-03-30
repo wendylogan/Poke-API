@@ -22,7 +22,7 @@ p{
 
 select {
   font-family: inherit;
-  font-size: 14px; 
+  font-size: 12px; 
   padding: 10px 30px 10px 8px;
   width: 220px;
   height: auto;
@@ -33,7 +33,6 @@ select {
   color: #3b4cca;
   cursor: pointer;
   line-height: 1.5;
-  margin-bottom: 20px;
 }
 
 select:hover {
@@ -46,11 +45,8 @@ select:hover {
 }
 
 #sprite {
-  width: 96px;  /* Standard Pokémon sprite size */
+  width: 96px;  
   height: 96px;
-  border: 2px solid #3b4cca;
-  border-radius: 4px;
-  padding: 4px;
 }
 
 /* Hidden by default, shown only after selection */

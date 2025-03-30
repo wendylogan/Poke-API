@@ -1,4 +1,4 @@
-h// populate the select element
+// populate the select element
 addPokemon();
 
 // requests the list of pokemon and populates the select element

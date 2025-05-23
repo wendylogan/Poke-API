@@ -9,7 +9,7 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 ## How to Run  
 1. **Clone this repository** (or download the files):  
    ```bash  
-   git clone https://github.com/wendyologan/poke-api.git
+   git clone https://github.com/wendylogan/poke-api.git
 
 2. **Open the index.html file in your browser:**
    Double-click the file, or

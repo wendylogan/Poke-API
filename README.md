@@ -27,17 +27,14 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 <img width="635" alt="pokeAPIss1" src="https://github.com/user-attachments/assets/768236c4-b0e9-4af0-9410-c0505e24f6e0" />
 
 
-
 **Screenshot 2:** Select a Pokemon name from the dropdown to view Pokemon information
 
 <img width="634" alt="pokeAPIss2" src="https://github.com/user-attachments/assets/8f2a8985-cb85-4093-9c18-fd49b4e70adc" />
 
 
-
 **Screenshot 3:** Results display the Pokemon's sprite/image, name, height, and weight
 
 <img width="634" alt="pokeAPIss3" src="https://github.com/user-attachments/assets/2d4edabb-0797-4c64-92f6-684bf6292ae2" />
-
 
 
 ## Future Improvements

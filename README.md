@@ -1,10 +1,10 @@
 # Pokémon API Viewer  
 
-A simple web app that fetches and displays Pokémon data (name, height, weight) from the [PokéAPI](https://pokeapi.co/).  
+A simple web app that fetches and displays Pokémon data (sprite/image, height, weight) from the [PokéAPI](https://pokeapi.co/).  
 
 ## Features  
 - Dropdown menu to select a Pokémon.  
-- Displays the selected Pokémon's **name**, **height**, and **weight**.  
+- Displays the selected Pokémon's **sprite**, **height**, and **weight**.  
 
 ## How to Run  
 1. **Clone this repository** (or download the files):  
@@ -32,7 +32,7 @@ A simple web app that fetches and displays Pokémon data (name, height, weight) 
 <img width="634" alt="pokeAPIss2" src="https://github.com/user-attachments/assets/8f2a8985-cb85-4093-9c18-fd49b4e70adc" />
 
 
-**Screenshot 3:** Results display the Pokemon's sprite/image, name, height, and weight
+**Screenshot 3:** Results display the Pokemon's sprite, height, and weight
 
 <img width="634" alt="pokeAPIss3" src="https://github.com/user-attachments/assets/2d4edabb-0797-4c64-92f6-684bf6292ae2" />
 

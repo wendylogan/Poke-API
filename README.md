@@ -47,19 +47,19 @@ That's it! The application will load and you can start exploring Pokémon.
 
 The application loads with a clean interface and a dropdown menu ready for selection.
 
-![alt text](<Screenshot 2026-08-27 at 5.06.07 PM.png>)
+<img width="972" height="811" alt="demo-initial-state" src="https://github.com/user-attachments/assets/12313b99-ddc6-4a68-8a98-da1846e19dd5" />
 
 **Dropdown Menu Populated**
 
 All 151 original Pokémon are available in the dropdown menu.
 
-![alt text](<Screenshot 2026-08-27 at 5.07.28 PM.png>)
+<img width="972" height="823" alt="demo-pokemon-dropdown" src="https://github.com/user-attachments/assets/6df87512-70ea-4e96-b978-b602002a79a7" />
 
 **Pokémon Selected – Display View**
 
 After selecting a Pokémon, the sprite, height, weight, type, base XP, and abilities are displayed.
 
-![alt text](<Screenshot 2026-08-27 at 5.08.25 PM.png>)
+<img width="897" height="828" alt="demo-selection" src="https://github.com/user-attachments/assets/bf2d9722-7225-4605-977f-c91e9592e0b5" />
 
 ## 🔗 API Source
 This project uses the PokéAPI hosted at pokeapi.co.

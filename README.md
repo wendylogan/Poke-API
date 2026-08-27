@@ -42,7 +42,7 @@ A clean, interactive web application that integrates with the PokéAPI. Users se
 
 That's it! The application will load and you can start exploring Pokémon.
 
-📸 Example Output
+## 📸 Example Output
 Initial Page Load
 The application loads with a clean interface and a dropdown menu ready for selection.
 

@@ -43,25 +43,22 @@ A clean, interactive web application that integrates with the PokéAPI. Users se
 That's it! The application will load and you can start exploring Pokémon.
 
 ## 📸 Example Output
-Initial Page Load
+**Initial Page Load**
 The application loads with a clean interface and a dropdown menu ready for selection.
 
 ![alt text](<Screenshot 2026-08-27 at 5.06.07 PM.png>)
 
-Dropdown Menu Populated
+**Dropdown Menu Populated**
 All 151 original Pokémon are available in the dropdown menu.
 
 ![alt text](<Screenshot 2026-08-27 at 5.07.28 PM.png>)
 
-Pokémon Selected – Display View
+**Pokémon Selected – Display View**
 After selecting a Pokémon, the sprite, height, weight, type, base XP, and abilities are displayed.
 
 ![alt text](<Screenshot 2026-08-27 at 5.08.25 PM.png>)
 
-🔗 API Source
+## 🔗 API Source
 This project uses the PokéAPI hosted at pokeapi.co.
 
 The PokéAPI is a free, open-source RESTful API for Pokémon data. No authentication is required.
-
-📝 License
-This project is for educational and portfolio purposes.

@@ -19,14 +19,16 @@ A clean, interactive web application that integrates with the PokéAPI. Users se
 
 ## 📦 Prerequisites
 
+- **Python 3** – for running the local server
 - **A web browser** (Chrome, Firefox, Safari, Edge)
 - **Internet connection** (to fetch data from the PokéAPI)
 
 ## 🚀 How to Run
 
-### Option 1: Open Directly (Easiest)
+1. Open a terminal and navigate to the project folder:
+   ```bash
+   cd Pokemon-API-Explorer
 
-1. Download or clone the repository:
-```bash
-git clone https://github.com/yourusername/Pokemon-API-Explorer.git
-cd Pokemon-API-Explorer
+2. Start a local Python server:
+    ```bash
+    python3 -m http.server 8000 

@@ -25,10 +25,19 @@ A clean, interactive web application that integrates with the PokéAPI. Users se
 
 ## 🚀 How to Run
 
-1. Open a terminal and navigate to the project folder:
-   ```bash
-   cd Pokemon-API-Explorer
-
-2. Start a local Python server:
+1. Open a terminal and download or clone the repository:
     ```bash
-    python3 -m http.server 8000 
+    git clone https://github.com/yourusername/Pokemon-API-Explorer.git
+2. Navigate to the project folder:
+    ```bash
+    cd Pokemon-API-Explorer
+
+3. Start a local Python server:
+   ```bash
+   python3 -m http.server 8000
+
+4. Open your browser and go to:
+    ```bash
+    http://localhost:8000
+
+That's it! The application will load and you can start exploring Pokémon.

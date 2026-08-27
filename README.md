@@ -44,16 +44,19 @@ That's it! The application will load and you can start exploring Pokémon.
 
 ## 📸 Example Output
 **Initial Page Load**
+
 The application loads with a clean interface and a dropdown menu ready for selection.
 
 ![alt text](<Screenshot 2026-08-27 at 5.06.07 PM.png>)
 
 **Dropdown Menu Populated**
+
 All 151 original Pokémon are available in the dropdown menu.
 
 ![alt text](<Screenshot 2026-08-27 at 5.07.28 PM.png>)
 
 **Pokémon Selected – Display View**
+
 After selecting a Pokémon, the sprite, height, weight, type, base XP, and abilities are displayed.
 
 ![alt text](<Screenshot 2026-08-27 at 5.08.25 PM.png>)

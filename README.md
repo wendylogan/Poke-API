@@ -1,20 +1,20 @@
 # ⚡ Pokémon API Explorer
 
-A clean frontend web application that integrates with the PokéAPI. Users select a Pokémon from a dropdown menu and view its sprite, name, height, and weight. Demonstrates asynchronous API requests and dynamic DOM manipulation.
+A clean, interactive web application that integrates with the PokéAPI. Users select a Pokémon from a dropdown menu and instantly view its sprite, stats, and abilities — all wrapped in a Pokémon-themed interface.
 
 ## ✨ Features
 
-- **Dropdown menu** – Select any Pokémon from the first generation (1-151)
-- **Dynamic display** – Shows Pokémon sprite, name, height, and weight
-- **Clean UI** – Modern dark theme matching portfolio design
-- **Error handling** – Graceful handling of API failures
-- **Responsive** – Works on desktop and mobile devices
+- **Dropdown menu** – Browse all 151 original Pokémon
+- **Dynamic display** – View sprite, height, weight, type, base XP, and abilities
+- **Pokémon-themed UI** – Classic yellow and blue color scheme
+- **Responsive design** – Works on desktop, tablet, and mobile devices
+- **Error handling** – Graceful handling of API failures and invalid selections
 
 ## 🛠️ Technologies
 
 - **HTML5** – Structure
-- **CSS3** – Styling (dark theme, responsive)
-- **JavaScript (ES6+)** – API calls, DOM manipulation
+- **CSS3** – Styling (Pokémon Blue & Yellow theme)
+- **JavaScript (ES6+)** – API calls and DOM manipulation
 - **PokéAPI** – Data source ([pokeapi.co](https://pokeapi.co))
 
 ## 📦 Prerequisites
@@ -24,7 +24,7 @@ A clean frontend web application that integrates with the PokéAPI. Users select
 
 ## 🚀 How to Run
 
-### Option 1: Open Directly
+### Option 1: Open Directly (Easiest)
 
 1. Download or clone the repository:
 ```bash
